@@ -1,0 +1,30 @@
+,,,,,,,,,,,,Tasting Notes,,,,,,,,,,,,,,,,,,,Adjective/Instensifiers,,,,,,,,,,Body,,
+Name,Roaster,Process,Variety,Farm,Producer,Region,Country,Harvest_Start,Harvest_End,Elevation_Min,Elevation_Max,Floral,Citrus,Apple/Pear,Melon,Grape,Tropical Fruit,Stone Fruit,Berry,Dried Fruit,Chocolate,Sugary & Sweet,Nut,Grain & Cereal,Roast,Spice,Savory,Herb,Earthy,Vegetal,"Crisp, Bright, Vibrant, Tart","Muted, Dull, Mild","Wild, Unbalanced, Sharp, Pointed","Structured, Blanced, Rounded","Dense, Deep, Complex","Soft, Faint, Delicate",Juicy,"Dry, Astringent","Lingering, Dirty","Quick, Clean","Light (Watery, Tea-like, Silky, Slick, Juicy)","Medium (Smooth, 2% Milk, Syrupy, Round, Creamy)","Heavy (Full, Velvety, Big, Chewy, Coating)"
+MONTEBLANCO BOURBON ROSA,Verve,Wet-Process,Burbon Rosa,,RODRIGO SANCHEZ,"ACEVEDO, HUILA",Columbia,11,1,1670,1780,0,7,0,0,0,7,0,0,0,0,5,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,10,0,0
+HUNAPU,Verve,Wet-Process,Burbon,Beneficio Bella Vista,Various Small Producers,ANTIGUA,GUATEMALA,11,3,1500,1800,0,0,10,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,5,0,0,0,5,0,0,0,0,0,0,10,0
+EL LIMONCILLO YELLOW PACAMARA,Verve,Honey-Process,Yellow Pacamara,El Limoncillo,ERWIN MIERISCH,"YASICA NORTE, MATAGALPA",NICARAGUA,12,1,1200,1200,0,0,0,0,0,5,0,0,8,0,7,0,0,0,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,0,10,0
+MERSHA ASSEFA,Verve,Wet-Process,Ethiopia Heirloom,Chelelektu,Various Small Producers,KOCHERE WOREDA,Ethiopia,11,1,1850,1950,10,0,0,0,0,0,10,0,0,0,5,0,0,0,7,0,0,0,0,0,0,0,0,5,0,0,0,0,0,10,0,0
+SANTA CLARA,Verve,Wet-Process,Burbon,Finca Santa Clara,RICARDO ZELAYA,ANTIGUA,GUATEMALA,12,4,1600,1850,10,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,10,0
+EL VENDAVAL,Verve,Wet-Process,Catuai,El Vendaval,FAMILIA CALDERON,"SANTA MARÍA, DOTA, TARRAZU",Costa Rica,12,4,1900,2100,10,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0
+SUMAVA ESPRESSO,Verve,Wet-Process,Caturra,Finca Sumava de Lourdes,Francisco Mena,Naranjo,Costa Rica,1,4,1670,1780,0,0,0,7,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,10,0
+LA HUERTA,Verve,Wet-Process,"Burbon, Caturra",Finca La Bolsa,RENARDO OVALLE,"LA LIBERTAD, HUEHUETENANGO",GUATEMALA,12,3,1400,1600,0,0,0,0,0,0,10,0,0,10,10,0,0,0,0,0,0,0,0,10,0,0,0,0,0,5,0,0,0,0,10,0
+KII PEABERRY,Verve,Wet-Process,"SL28, SL24",Kii,RUNGETO FARMERS COOPERATIVE SOCIETY,KIRINYAGA,Kenya,11,3,1850,1950,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,5,0,0,0,0,0,10
+LUITO GESHA,Verve,Wet-Process,Gesha,Luito,GABRIELA AND MICHELLE LAMASTUS,"BAJO MONO, BOQUETE",Panama,12,2,1800,1800,10,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+EVELIA MARIA HONEY GESHA,Verve,Honey-Process,Gesha,Jurutungo,"DAPHNE GALLARDO, ALEJANDRO GONZALEZ REVILLA & GRACIANO CRUZ",PIEDRA CANDELA,Panama,12,2,1800,2100,10,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0
+ELIDA ESTATE GREEN TIP GESHA,Verve,Wet-Process,Gesha,Elida Estate,WILFORD AND THATCHER LAMASTUS,BOQUETE,Panama,12,2,1800,1800,0,10,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,10,0,0
+Meaza,Coava,Washed,Ethiopia Heirloom,Chelelektu,Kochere Cooperative,"Chalalacktu, Borena",Ethiopia,,,1975,2000,7,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,5,5,0,0,0,5,0,5,0,0,0,0,0,10,0
+Bella Aurora,Coava,Washed,Caturra,Finca Bella Aurora,Joaquin Augusto Lovo Lopez,"Dipilto, Nueva Segovia",NICARAGUA,,,1350,1350,0,7,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,5,0,0,0,0,5,0,0,0,0,0,0,0,0,5
+EL ESCOBERO AUCTION LOT,Verve,Wet-Process,Caturra,El Escobero,Juan Gabriel Rivera Caro,Antioquia,Columbia,12,2,1890,1890,0,0,0,0,0,0,0,10,0,0,10,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,10,0,0
+Kilenso,Coava,Natural,Ethiopia Heirloom,,Kilenso Mokonissa Cooperative,Borena Hagermariam,Ethiopia,,,1750,1800,10,0,0,0,10,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,10,0
+Mr. David Mburu,Coava,Washed,"Ruiru 11, SL 28, SL 34",Mburu,Mr. David Mburu Mwangi,Kiambu East District,Kenya,,,1900,1900,0,0,0,0,0,0,0,0,0,10,0,0,7,0,0,0,0,0,7,10,0,0,0,0,0,0,0,0,0,0,10,0
+Finca Las Terrazas,Coava,Washed,"San Ramon, Bourbon, Caturra",Finca Las Terrazas,Renaldo Ovalle Vides,"La Libertad, Huehuetenango",GUATEMALA,,,1700,2100,0,0,0,10,0,0,0,0,0,10,5,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,10
+David Mancia,Coava,Washed,"Pacas, Catimor",David Mancia,David Mancia,Santa Barbara,Honduras,,,1600,1650,0,0,0,10,0,0,0,10,0,0,10,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,10,0
+Benjamin Miranda,Coava,Washed,Pacas,Benjamin Miranda,Benjamin Miranda,Santa Barbara,Honduras,,,1575,1650,0,0,0,0,0,0,5,0,0,10,5,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,5,5
+Duncan Estate,Noble,Washed,Gesha,Duncan Estate,Ricardo Koyner,"Boquete, Chiriquí",Panama,,,,,10,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,5,0,0,0,5,10,0,0
+Addisu Kidane,Noble,Natural,Ethiopia Heirloom,Worka co-op,Addisu Kidane,"Yirga Cheffe, Gedeo Zone",Ethiopia,,,1800,1900,0,10,0,10,0,0,0,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,10,0,0
+Shilcho,Noble,Washed,Ethiopia Heirloom,Shilcho,Shilcho Cooperative,Sidama,Ethiopia,,,1750,2000,10,0,0,0,0,0,5,10,0,0,5,0,0,0,5,0,0,0,5,0,0,0,0,0,10,0,0,0,0,10,0,0
+Los Vascos,Noble,Washed,"Bourbon, caturra, catimor",Asotbilbao cooperative,Asotbilbao cooperative,"Bilbao, Tolima",Columbia,,,1650,1950,0,5,0,0,0,0,5,0,0,10,5,0,0,0,5,0,5,0,0,0,0,0,0,10,0,0,0,0,0,0,10,0
+EL INJERTO PACAMARA,Verve,Wet-Process,Pacamara,Finca El Injerto,ARTURO AGUIRRE AND ARTURO AGUIRRE JR,"LA LIBERTAD, HUEHUETENANGO",GUATEMALA,12,3,1650,1750,10,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,10,0
+Winrush Estate,Verve,Wet-Process,"SL28, SL24",Winrush Estate,Winrush Estate,Kiambu County,Kenya,1,2,1500,1600,0,0,0,0,0,0,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,10,0
+Layo Teraga,Verve,Wet-Process,Ethiopia Heirloom,Layo Teraga,Various Small Producers,Negele Borena,Ethiopia,11,3,1800,2300,0,10,0,0,0,10,0,0,0,0,5,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,10,0
+La Esperanza,Verve,Wet-Process,Bourbon,Finca La Esperanza,Aurelio Villatoro,"La Libertad, Huehuetenango",Guatemala,11,4,1700,1850,0,0,0,0,0,0,0,0,0,0,10,0,0,0,10,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,10,0

@@ -1,0 +1,38 @@
+{
+ "Pacamara": {
+    "website": "https://varieties.worldcoffeeresearch.org/varieties/pacamara", 
+    "desc": "The flavor profile is outstanding, with sweet citrus notes, wonderful balance and hints of floral aromas. We like to source Pacamara from the highest possible elevations, which leads to the highest cup quality."
+             }, 
+ "SL34": {
+    "website": "", 
+    "desc": "Also from Scott Laboratories, this plant truly shines at medium-to-high altitudes. SL34's flavor is characterized by its complex citric acidity, heavy mouthfeel and clean, sweet finish."
+         }, 
+ "Caturra": {
+    "website": "https://varieties.worldcoffeeresearch.org/varieties/caturra", 
+    "desc": "Caturra is distinguished by its bright acidity and low-to-medium body. It has less clarity and sweetness than its parent, Bourbon. First developed in Brazil, these small trees are found throughout Colombia, Costa Rica and Nicaragua."
+            }, 
+ "Ethiopian Heirloom": {
+    "website": "", 
+    "desc": "The beauty of these is in their mystery. They are the wildflower varieties, descended from the natural coffee forests of southwestern Ethiopia. Each village has its own variety, handed down over centuries and shaped by the soil, elevation and weather."
+                      }, 
+ "Gesha": {
+    "website": "https://varieties.worldcoffeeresearch.org/varieties/geisha", 
+    "desc": "Think of Gesha as coffee from an alternate dimension. It's like a Szechuan peppercorn, or the Sun Ra Arkestra, complex and otherworldly. It's as far as can be from diner coffee, a delicate, black-tea body, with a zest of bergamot. Gesha is picky - it will only grow when, where and how it wants, in tiny microclimates. But whether you grow it in Indonesia or the Americas, it is always thoroughly itself."
+          }, 
+ "Catuai": {
+    "website": "https://varieties.worldcoffeeresearch.org/varieties/catuai", 
+    "desc": "Ripe Catuai cherry are red or yellow, and while they both have big acidity, the yellow beans, when cool, lead to an unclean, petroleum-like mouthfeel. These days, all our Catuai cherry are the red ones, found all over Latin America."
+           }, 
+ "Burbon": {
+    "website": "https://varieties.worldcoffeeresearch.org/varieties/bourbon", 
+    "desc": "So sweet, so complex and so delicate, this is the pinot noir of coffee. The plants are fragile and don't produce as much cherry as some other varieties, but they're worth the effort. A cup of Bourbon-type variety is lush and classic. It's the coffee of coffee. It charms the snob and the rookie alike."
+           }, 
+ "SL28": {
+    "website": "", 
+    "desc": "Scott Laboratories (SL) was hired by the Kenyan government in the 1930s to develop stronger, drought-resistant varieties. With SL-28, they failed in their mission to create a high-yield tree, but succeeded in creating delicious beans, with an intensely citric, sweet, balanced and complex flavor."
+         }, 
+ "Typica": {
+    "website": "https://varieties.worldcoffeeresearch.org/varieties/typica", 
+    "desc": "One of the grandaddies of all the varieties, Coffee Arabica Typica has been grown, hybridized and perfected for centuries. Cup quality is generally excellent, demonstrating outstanding sweetness, cleanliness and body."
+           }
+}
