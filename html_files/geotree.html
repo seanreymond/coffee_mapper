@@ -1,0 +1,471 @@
+<style>
+ 
+body {
+  background: #fcfcfa;
+}
+ 
+.stroke {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
+ 
+.fill {
+  fill: transparent; 
+}
+ 
+.land {
+  fill: none; 
+  stroke: #999999;
+  stroke-opacity: 0.4;
+  stroke-width: 0.3px;
+}
+ 
+.boundary {
+  fill: none;
+  stroke: white;
+  stroke-opacity: 0.4;
+  stroke-width: 0.3px;
+}
+ 
+.node {
+  border: solid 1px white;
+  font: 10px sans-serif;
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 2px;
+}
+ 
+.nodeText {
+  font: 10px sans-serif;
+  color: yellow;
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+}
+ 
+.countryText {
+  font: 10px sans-serif;
+  color: yellow;
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+}
+ 
+ 
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+  z-index: 100;
+}
+  
+.link:hover {
+  stroke-opacity: .4;
+}
+ 
+#LinkedGeogTreeMaps {
+  width: 1200px;
+  height: 800px;
+  background: #eee;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  z-index: 10;
+}
+ 
+#MapTitle {
+    left: 30%;
+    position: absolute;
+    font-family: Avenir,Arial,Verdana,Times New Roman;
+    color: #006633;
+}
+ 
+#creditInfo {
+    right: 20px;
+    top: 40%;
+    position:absolute;
+    font-family: Verdana,Times New Roman, Arial;
+    color: #003300;
+    font-size: 11px;
+}
+ 
+.links {
+  width: 1200px;
+  height: 800px;
+  background: transparent;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  z-index: 100;
+  pointer-events: none; 
+}
+ 
+#GeogMap {
+    width: 1000px;
+    height: 600px;
+    background: transparent;
+    position: relative;
+    z-index: 20;
+    pointer-events: visible;    
+}
+ 
+#CanvasMap {
+    width: 1000px;
+    height: 600px;
+    background: #eee;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 10;
+    pointer-events: none;       
+}
+ 
+#TreeMap {
+    height: 200px;
+    background: #ccc;
+        position: relative;
+        z-index: 20;
+}
+ 
+</style>
+ 
+    <title>
+      Global Landscapes Initiative - Excess Nitrogen
+    </title>
+ 
+ 
+<div id="LinkedGeogTreeMaps">
+<div id="MapTitle">
+<h2>Global Excess Nitrogen</h2>
+</div>
+ 
+<div id="creditInfo">
+</div>
+<div id="GeogMap"></div>
+<div id="CanvasMap" style="width: 955.0803082874418px; height: 477.5399054324266px; left: 22.459845856279117px; top: 61.23004728378672px;"><canvas width="955.0803082874418" height="477.5399054324266"></canvas></div>
+<div id="TreeMap"></div>
+</div>
+ 
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script>
+ 
+var parseDate = d3.time.format("%Y-%m-%d").parse,
+    formatDate = d3.time.format("%x");
+ 
+var width = 1000,
+    height = 600;
+ 
+var projection = d3.geo.eckert4() // naturalEarth
+    .scale(180)
+    .translate([width / 2, height / 2])
+    .precision(.1);
+ 
+var color = d3.scale.log()
+    .domain([10000, 16257463248])
+    .range(["orange", "purple"])
+    .clamp(true)
+    .interpolate(d3.interpolateHcl);
+     
+var linkWidth = d3.scale.log()
+    .domain([1000000000, 16257463248])
+    .range([2, 50])
+    .clamp(true);
+ 
+var path = d3.geo.path()
+    .projection(projection);
+ 
+var svg = d3.select("#GeogMap").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+ 
+svg.append("defs").append("path")
+    .datum({type: "Sphere"})
+    .attr("id", "sphere")
+    .attr("d", path);
+ 
+svg.append("use")
+    .attr("class", "stroke")
+    .attr("xlink:href", "#sphere");
+ 
+svg.append("use")
+    .attr("class", "fill")
+    .attr("xlink:href", "#sphere");
+ 
+var lPt = projection([-180, 0]), rPt = projection([+180, 0]), tPt = projection([0, 90]), bPt = projection([0, -90]);
+var cW = (rPt[0] - lPt[0]), cH = (bPt[1] - tPt[1]);
+var canvas = d3.select("#CanvasMap").append("canvas")
+    .attr("width", cW)
+    .attr("height", cH);
+ 
+d3.select("#CanvasMap")
+    .style("width", cW + "px")
+    .style("height", cH + "px")
+    .style("left", (lPt[0]) + "px")
+    .style("top", (tPt[1]) + "px");
+ 
+var context = canvas.node().getContext("2d");
+/* 
+getImage("ExcessN.png", function(image) {
+  context.drawImage(image, 0, 0, cW, cH);
+  image = context.getImageData(0, 0, cW, cH);
+ 
+  // Set transparent colors and also apply alpha to colors
+  for (var c, i = 0, n = cW * cH * 4, d = image.data; i < n; i += 4) {
+    if(d[i+0] < 80 && d[i+1] < 80 && d[i+2] < 80) { 
+        d[i+3] = 0;
+    } else {
+        d[i+3] = 220;
+    }
+  }
+  context.putImageData(image, 0, 0);
+});
+ 
+function getImage(path, callback) {
+  var image = new Image;
+  image.onload = function() { callback(image); };
+  image.src = path;
+}
+  */   
+var numB = d3.format(",.1f");
+ 
+queue() // queue.js is a lightweight asynchronous helper libray to load large dataset.
+    .defer(d3.json, "../geojson/world-50m.json") // defer will block the js running untill the data is completely loaded
+    .defer(d3.csv, "../data/excessNrev.csv", type)
+    .await(ready);
+ 
+function ready(error, world, curValues) {
+  var valuesById = d3.nest()
+      .key(function(d) { return d.id; })
+      .sortValues(function(a, b) { return a.TOTAL_EXCESS_KG - b.TOTAL_EXCESS_KG; })
+      .map(curValues, d3.map);
+ 
+  var country = svg.insert("g", ".graticule")
+      .attr("class", "land")
+    .selectAll("path")
+      .data(topojson.feature(world, world.objects.countries).features)
+    .enter().append("path")
+      .attr("d", path);
+       
+    country.on("mouseenter", function(d) { 
+        country.filter(function(dd) { return dd.id === d.id; })
+            .style("fill", "#000");
+ 
+        nodesDIV.filter(function(dd) { return dd.id === d.id; })
+            .style("background", "#000");
+         
+        updateTextPanel(d, valuesById, countryText, excessNText, excessNPtgText);   
+    })
+    .on("click", function (d){
+        updateTextPanel(d, valuesById, countryText, excessNText, excessNPtgText);
+    })
+    .on("mouseleave", function(d) { 
+        country.filter(function(dd) { return dd.id === d.id; })
+            //.style("fill", "none");
+            .style("fill", (d.children || valuesById.get === undefined || valuesById.get(d.id) === undefined || valuesById.get(d.id) === null) ? null : color(valuesById.get(d.id)[0].TOTAL_EXCESS_KG));
+         
+        nodesDIV.filter(function(dd) { return dd.id === d.id; })
+            .style("background", (d.children || valuesById.get === undefined || valuesById.get(d.id) === undefined || valuesById.get(d.id) === null) ? null : color(valuesById.get(d.id)[0].TOTAL_EXCESS_KG));
+    });
+ 
+  country.filter(function(d) { return valuesById.has(d.id); })
+      .style("fill", function(d) { return color(valuesById.get(d.id)[0].TOTAL_EXCESS_KG); })
+      .style("fill-opacity", 0.5)
+    .append("title")
+      .text(function(d) {
+        var valueForID = valuesById.get(d.id);
+        return valueForID[0].NAME + "\n" + valueForID.map(function(d) { return ("" + numB(d.TOTAL_EXCESS_KG) + "KG"); }).join("\n");
+      });
+ 
+  svg.insert("path", ".graticule")
+      .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
+      .attr("class", "boundary")
+      .attr("d", path);
+       
+  
+var margin = {top: 10, right: 10, bottom: 10, left: 10},
+    width = 1200 - margin.left - margin.right,
+    height = 200 - margin.top - margin.bottom;
+     
+var treemap = d3.layout.treemap()
+    .size([width, height])
+    .sticky(true)
+    .value(function(d) { return d.TOTAL_EXCESS_KG; });
+ 
+var div = d3.select("#TreeMap").append("div")
+    .style("position", "relative")
+    .style("width", (width + margin.left + margin.right) + "px")
+    .style("height", (height + margin.top + margin.bottom) + "px")
+    .style("left", margin.left + "px")
+    .style("top", margin.top + "px");
+ 
+ 
+var valuesByRegion = d3.nest()    
+  .key(function(d) { return d.SUBREGION; })
+  //.key(function(d) { return d.id; })
+  //.sortValues(function(a, b) { return a.TOTAL_EXCESS_KG - b.TOTAL_EXCESS_KG; })
+  .entries(curValues);
+ 
+var nodeData = {"name":"excessN"};
+nodeData.children = [];
+ 
+valuesByRegion.forEach(function(d){
+        var regionNode = {"name":d.key};
+        regionNode.children = [];
+        d.values.forEach(function(c){
+            regionNode.children.push(c);
+        });
+         
+        nodeData.children.push(regionNode);
+});
+  
+var node = div.datum(nodeData).selectAll(".node")
+      .data(treemap.nodes)
+      .enter();
+var nodesDIV = node.append("div")
+      .attr("class", "node")
+      .call(position)
+      .style("background", function(d, j) { return d.children ? null : color(d.TOTAL_EXCESS_KG); } );
+ 
+      node.append("text")
+        .attr("class", "nodeText")
+        .text(function(d, j) { return d.children ? null : d.NAME; })
+        .style("left", function(d) { return (d.x + 3) + "px"; })
+        .style("top", function(d) { return (d.y + 3) + "px"; })
+        .style("width", function(d) { return Math.max(0, d.dx - 4) + "px"; })
+        .style("height", function(d) { return Math.max(0, d.dy - 4) + "px"; })
+        .style("text-anchor", "middle")
+        .attr("dominant-baseline", "middle")    
+        .attr("alignment-baseline", "middle")
+        .on("mouseenter", function(d) { 
+            country.filter(function(dd) { return dd.id === d.id; })
+                .style("fill", d.children? null : color(d.TOTAL_EXCESS_KG));
+                 
+            nodesDIV.filter(function(dd) { return dd.id === d.id; })
+                .style("background", "#000");
+            updateTextPanel(d, valuesById, countryText, excessNText, excessNPtgText);
+        })
+        .on("click", function (d){
+            //updateTextPanel(d, valuesById, countryText, excessNText, excessNPtgText);
+        })
+        .on("mouseleave", function(d) { 
+            country.filter(function(dd) { return dd.id === d.id; })
+                .style("fill", "none");
+                //.style("fill", d.children? null : color(d.TOTAL_EXCESS_KG));
+ 
+            nodesDIV.filter(function(dd) { return dd.id === d.id; })
+                .style("background", d.children? null : color(d.TOTAL_EXCESS_KG));
+        });
+ 
+        var linksSVG = d3.select("#LinkedGeogTreeMaps").append("svg")
+                    .attr("class", "links")
+                    .attr("top",0)
+                    .attr("left",0)
+                    .attr("width", 1200)
+                    .attr("height", 800);
+         
+                 
+                var countryText = linksSVG.append("text")
+                  .attr("class", "countryText")
+                  .attr("x", function(d) { return (1000 + 3) + "px"; })
+                  .attr("y", function(d) { return (30 + 3) + "px"; })
+                  .attr("dx", function(d) { return "0px"; })
+                  .attr("dy", function(d) { return "0px"; })
+                  .style("text-anchor", "start")
+                  .style("font-size", "16px")
+                  .attr("dominant-baseline", "middle")    
+                  .attr("alignment-baseline", "middle");
+ 
+                var excessNText = linksSVG.append("text")
+                  .attr("class", "countryText")
+                  .attr("x", function(d) { return (1000 + 13) + "px"; })
+                  .attr("y", function(d) { return (60 + 3) + "px"; })
+                  .attr("dx", function(d) { return "0px"; })
+                  .attr("dy", function(d) { return "0px"; })
+                  .style("text-anchor", "start")
+                  .attr("dominant-baseline", "middle")    
+                  .attr("alignment-baseline", "middle");
+ 
+                var excessNPtgText = linksSVG.append("text")
+                  .attr("class", "countryText")
+                  .attr("x", function(d) { return (1000 + 13) + "px"; })
+                  .attr("y", function(d) { return (90 + 3) + "px"; })
+                  .attr("dx", function(d) { return "0px"; })
+                  .attr("dy", function(d) { return "0px"; })
+                  .style("text-anchor", "start")
+                  .attr("dominant-baseline", "middle")    
+                  .attr("alignment-baseline", "middle");
+                   
+ 
+        var allNodes = treemap.nodes();
+        topojson.feature(world, world.objects.countries).features.forEach(function (d) {
+            var treeNode = allNodes.filter(function(dd) { return dd.id === d.id && dd.TOTAL_EXCESS_KG > 5293464700; });
+            if(treeNode && treeNode.length > 0) {
+                //var centroidPt = path.centroid(d),x0 = Math.round(centroidPt[0]),y0 = Math.round(centroidPt[1]);
+                var mbr = path.bounds(d),x0= Math.round((mbr[0][0]+mbr[1][0])*0.5),y0=Math.round(mbr[1][1]);
+                var x1 = Math.round(treeNode[0].x + treeNode[0].dx/2),y1 = Math.round(treeNode[0].y + treeNode[0].dy/2*0 + margin.top + 3 + 600); 
+                 
+                if (treeNode[0].NAME == "China") {
+                    x0+=30; y0-=18;
+                } else if(treeNode[0].NAME == "India") {
+                    x0-=12; y0-=32;
+                } else if(treeNode[0].NAME == "United States") {
+                    x0-=222; y0-=36;
+                }
+                 
+                var lPath = "M " + x0 + " " + y0 + " C " +  1*(x0) + " " + (y0+100) + " " + x1 + " " + 0.5*(y0+y1) + " " + x1 + " " + y1;
+                 
+                linksSVG.append("path")
+                    .attr("class", "link")
+                    .attr("d", lPath)
+                    //.style("stroke-width", function(d) { return treeNode[0].dx; });
+                    .style("stroke-width", function(d) { return Math.max(1, linkWidth(treeNode[0].TOTAL_EXCESS_KG)); });
+            }
+        });
+}
+ 
+function position() {
+  this.style("left", function(d) { return d.x + "px"; })
+      .style("top", function(d) { return d.y + "px"; })
+      .style("width", function(d) { return Math.max(0, d.dx - 1) + "px"; })
+      .style("height", function(d) { return Math.max(0, d.dy - 1) + "px"; });
+}
+ 
+function type(d) {
+  d.id = +d.ISO_N3; // convert this to numbers
+  d.TOTAL_EXCESS_KG = +d.TOTAL_EXCESS_KG; // the quantitative field, convert to numbers
+  return d;
+}
+ 
+function updateTextPanel(d, dataSet, countryText, excessNText, excessNPtgText){
+    if (d == null || d.id == "undefined" || dataSet.get(d.id) == null || dataSet.get(d.id) == "undefined") {
+        return;
+    }
+       
+    countryText.text(function(){
+      var countryObj = dataSet.get(d.id)[0];
+        return countryObj.NAME; 
+    });
+     
+    excessNText.text(function(){
+      var countryObj = dataSet.get(d.id)[0];
+        return "Excess Nitrogen: " + numB(countryObj.TOTAL_EXCESS_KG/1000) + " TONNS ";
+    });
+     
+    excessNPtgText.text(function(){
+      var countryObj = dataSet.get(d.id)[0];
+        return "Global Percentage: " + d3.round(countryObj.TOTAL_EXCESS_KG/49592471724*100,2) + "%";
+    });
+}
+ 
+d3.select(self.frameElement).style("height", height + "px");
+ 
+</script>

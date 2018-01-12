@@ -1,0 +1,457 @@
+,Name,Variety,Value,Note,Note_Ind
+0,MONTEBLANCO BOURBON ROSA,Burbon Rosa,0.1,Floral,0
+1,HUNAPU,Burbon,0.1,Floral,0
+2,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,0.1,Floral,0
+3,MERSHA ASSEFA,Ethiopia Heirloom,10,Floral,0
+4,SANTA CLARA,Burbon,10,Floral,0
+5,EL VENDAVAL,Catuai,10,Floral,0
+6,SUMAVA ESPRESSO,Caturra,0.1,Floral,0
+7,LA HUERTA,"Burbon, Caturra",0.1,Floral,0
+8,KII PEABERRY,"SL28, SL24",10,Floral,0
+9,LUITO GESHA,Gesha,10,Floral,0
+10,EVELIA MARIA HONEY GESHA,Gesha,10,Floral,0
+11,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Floral,0
+12,Meaza,Ethiopia Heirloom,7,Floral,0
+13,Bella Aurora,Caturra,0.1,Floral,0
+14,EL ESCOBERO AUCTION LOT,Caturra,0.1,Floral,0
+15,Kilenso,Ethiopia Heirloom,10,Floral,0
+16,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",0.1,Floral,0
+17,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",0.1,Floral,0
+18,David Mancia,"Pacas, Catimor",0.1,Floral,0
+19,Benjamin Miranda,Pacas,0.1,Floral,0
+20,Duncan Estate,Gesha,10,Floral,0
+21,Addisu Kidane,Ethiopia Heirloom,0.1,Floral,0
+22,Shilcho,Ethiopia Heirloom,10,Floral,0
+23,Los Vascos,"Bourbon, caturra, catimor",0.1,Floral,0
+24,MONTEBLANCO BOURBON ROSA,Burbon Rosa,7,Citrus,1
+25,HUNAPU,Burbon,0.1,Citrus,1
+26,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,0.1,Citrus,1
+27,MERSHA ASSEFA,Ethiopia Heirloom,0.1,Citrus,1
+28,SANTA CLARA,Burbon,0.1,Citrus,1
+29,EL VENDAVAL,Catuai,0.1,Citrus,1
+30,SUMAVA ESPRESSO,Caturra,0.1,Citrus,1
+31,LA HUERTA,"Burbon, Caturra",0.1,Citrus,1
+32,KII PEABERRY,"SL28, SL24",10,Citrus,1
+33,LUITO GESHA,Gesha,0.1,Citrus,1
+34,EVELIA MARIA HONEY GESHA,Gesha,0.1,Citrus,1
+35,ELIDA ESTATE GREEN TIP GESHA,Gesha,10,Citrus,1
+36,Meaza,Ethiopia Heirloom,0.1,Citrus,1
+37,Bella Aurora,Caturra,7,Citrus,1
+38,EL ESCOBERO AUCTION LOT,Caturra,0.1,Citrus,1
+39,Kilenso,Ethiopia Heirloom,0.1,Citrus,1
+40,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",0.1,Citrus,1
+41,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",0.1,Citrus,1
+42,David Mancia,"Pacas, Catimor",0.1,Citrus,1
+43,Benjamin Miranda,Pacas,0.1,Citrus,1
+44,Duncan Estate,Gesha,0.1,Citrus,1
+45,Addisu Kidane,Ethiopia Heirloom,10,Citrus,1
+46,Shilcho,Ethiopia Heirloom,0.1,Citrus,1
+47,Los Vascos,"Bourbon, caturra, catimor",5,Citrus,1
+48,MONTEBLANCO BOURBON ROSA,Burbon Rosa,0.1,Apple/Pear,2
+49,HUNAPU,Burbon,10,Apple/Pear,2
+50,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,0.1,Apple/Pear,2
+51,MERSHA ASSEFA,Ethiopia Heirloom,0.1,Apple/Pear,2
+52,SANTA CLARA,Burbon,0.1,Apple/Pear,2
+53,EL VENDAVAL,Catuai,0.1,Apple/Pear,2
+54,SUMAVA ESPRESSO,Caturra,0.1,Apple/Pear,2
+55,LA HUERTA,"Burbon, Caturra",0.1,Apple/Pear,2
+56,KII PEABERRY,"SL28, SL24",0.1,Apple/Pear,2
+57,LUITO GESHA,Gesha,0.1,Apple/Pear,2
+58,EVELIA MARIA HONEY GESHA,Gesha,0.1,Apple/Pear,2
+59,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Apple/Pear,2
+60,Meaza,Ethiopia Heirloom,0.1,Apple/Pear,2
+61,Bella Aurora,Caturra,0.1,Apple/Pear,2
+62,EL ESCOBERO AUCTION LOT,Caturra,0.1,Apple/Pear,2
+63,Kilenso,Ethiopia Heirloom,0.1,Apple/Pear,2
+64,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",0.1,Apple/Pear,2
+65,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",0.1,Apple/Pear,2
+66,David Mancia,"Pacas, Catimor",0.1,Apple/Pear,2
+67,Benjamin Miranda,Pacas,0.1,Apple/Pear,2
+68,Duncan Estate,Gesha,0.1,Apple/Pear,2
+69,Addisu Kidane,Ethiopia Heirloom,0.1,Apple/Pear,2
+70,Shilcho,Ethiopia Heirloom,0.1,Apple/Pear,2
+71,Los Vascos,"Bourbon, caturra, catimor",0.1,Apple/Pear,2
+72,MONTEBLANCO BOURBON ROSA,Burbon Rosa,0.1,Melon,3
+73,HUNAPU,Burbon,0.1,Melon,3
+74,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,0.1,Melon,3
+75,MERSHA ASSEFA,Ethiopia Heirloom,0.1,Melon,3
+76,SANTA CLARA,Burbon,0.1,Melon,3
+77,EL VENDAVAL,Catuai,0.1,Melon,3
+78,SUMAVA ESPRESSO,Caturra,7,Melon,3
+79,LA HUERTA,"Burbon, Caturra",0.1,Melon,3
+80,KII PEABERRY,"SL28, SL24",0.1,Melon,3
+81,LUITO GESHA,Gesha,10,Melon,3
+82,EVELIA MARIA HONEY GESHA,Gesha,0.1,Melon,3
+83,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Melon,3
+84,Meaza,Ethiopia Heirloom,0.1,Melon,3
+85,Bella Aurora,Caturra,0.1,Melon,3
+86,EL ESCOBERO AUCTION LOT,Caturra,0.1,Melon,3
+87,Kilenso,Ethiopia Heirloom,0.1,Melon,3
+88,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",0.1,Melon,3
+89,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",10,Melon,3
+90,David Mancia,"Pacas, Catimor",10,Melon,3
+91,Benjamin Miranda,Pacas,0.1,Melon,3
+92,Duncan Estate,Gesha,0.1,Melon,3
+93,Addisu Kidane,Ethiopia Heirloom,10,Melon,3
+94,Shilcho,Ethiopia Heirloom,0.1,Melon,3
+95,Los Vascos,"Bourbon, caturra, catimor",0.1,Melon,3
+96,MONTEBLANCO BOURBON ROSA,Burbon Rosa,0.1,Grape,4
+97,HUNAPU,Burbon,0.1,Grape,4
+98,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,0.1,Grape,4
+99,MERSHA ASSEFA,Ethiopia Heirloom,0.1,Grape,4
+100,SANTA CLARA,Burbon,0.1,Grape,4
+101,EL VENDAVAL,Catuai,0.1,Grape,4
+102,SUMAVA ESPRESSO,Caturra,0.1,Grape,4
+103,LA HUERTA,"Burbon, Caturra",0.1,Grape,4
+104,KII PEABERRY,"SL28, SL24",0.1,Grape,4
+105,LUITO GESHA,Gesha,0.1,Grape,4
+106,EVELIA MARIA HONEY GESHA,Gesha,0.1,Grape,4
+107,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Grape,4
+108,Meaza,Ethiopia Heirloom,0.1,Grape,4
+109,Bella Aurora,Caturra,0.1,Grape,4
+110,EL ESCOBERO AUCTION LOT,Caturra,0.1,Grape,4
+111,Kilenso,Ethiopia Heirloom,10,Grape,4
+112,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",0.1,Grape,4
+113,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",0.1,Grape,4
+114,David Mancia,"Pacas, Catimor",0.1,Grape,4
+115,Benjamin Miranda,Pacas,0.1,Grape,4
+116,Duncan Estate,Gesha,0.1,Grape,4
+117,Addisu Kidane,Ethiopia Heirloom,0.1,Grape,4
+118,Shilcho,Ethiopia Heirloom,0.1,Grape,4
+119,Los Vascos,"Bourbon, caturra, catimor",0.1,Grape,4
+120,MONTEBLANCO BOURBON ROSA,Burbon Rosa,7,Tropical Fruit,5
+121,HUNAPU,Burbon,0.1,Tropical Fruit,5
+122,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,5,Tropical Fruit,5
+123,MERSHA ASSEFA,Ethiopia Heirloom,0.1,Tropical Fruit,5
+124,SANTA CLARA,Burbon,0.1,Tropical Fruit,5
+125,EL VENDAVAL,Catuai,0.1,Tropical Fruit,5
+126,SUMAVA ESPRESSO,Caturra,0.1,Tropical Fruit,5
+127,LA HUERTA,"Burbon, Caturra",0.1,Tropical Fruit,5
+128,KII PEABERRY,"SL28, SL24",0.1,Tropical Fruit,5
+129,LUITO GESHA,Gesha,0.1,Tropical Fruit,5
+130,EVELIA MARIA HONEY GESHA,Gesha,0.1,Tropical Fruit,5
+131,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Tropical Fruit,5
+132,Meaza,Ethiopia Heirloom,0.1,Tropical Fruit,5
+133,Bella Aurora,Caturra,0.1,Tropical Fruit,5
+134,EL ESCOBERO AUCTION LOT,Caturra,0.1,Tropical Fruit,5
+135,Kilenso,Ethiopia Heirloom,0.1,Tropical Fruit,5
+136,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",0.1,Tropical Fruit,5
+137,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",0.1,Tropical Fruit,5
+138,David Mancia,"Pacas, Catimor",0.1,Tropical Fruit,5
+139,Benjamin Miranda,Pacas,0.1,Tropical Fruit,5
+140,Duncan Estate,Gesha,10,Tropical Fruit,5
+141,Addisu Kidane,Ethiopia Heirloom,0.1,Tropical Fruit,5
+142,Shilcho,Ethiopia Heirloom,0.1,Tropical Fruit,5
+143,Los Vascos,"Bourbon, caturra, catimor",0.1,Tropical Fruit,5
+144,MONTEBLANCO BOURBON ROSA,Burbon Rosa,0.1,Stone Fruit,6
+145,HUNAPU,Burbon,0.1,Stone Fruit,6
+146,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,0.1,Stone Fruit,6
+147,MERSHA ASSEFA,Ethiopia Heirloom,10,Stone Fruit,6
+148,SANTA CLARA,Burbon,0.1,Stone Fruit,6
+149,EL VENDAVAL,Catuai,0.1,Stone Fruit,6
+150,SUMAVA ESPRESSO,Caturra,0.1,Stone Fruit,6
+151,LA HUERTA,"Burbon, Caturra",10,Stone Fruit,6
+152,KII PEABERRY,"SL28, SL24",0.1,Stone Fruit,6
+153,LUITO GESHA,Gesha,0.1,Stone Fruit,6
+154,EVELIA MARIA HONEY GESHA,Gesha,0.1,Stone Fruit,6
+155,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Stone Fruit,6
+156,Meaza,Ethiopia Heirloom,0.1,Stone Fruit,6
+157,Bella Aurora,Caturra,0.1,Stone Fruit,6
+158,EL ESCOBERO AUCTION LOT,Caturra,0.1,Stone Fruit,6
+159,Kilenso,Ethiopia Heirloom,0.1,Stone Fruit,6
+160,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",0.1,Stone Fruit,6
+161,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",0.1,Stone Fruit,6
+162,David Mancia,"Pacas, Catimor",0.1,Stone Fruit,6
+163,Benjamin Miranda,Pacas,5,Stone Fruit,6
+164,Duncan Estate,Gesha,0.1,Stone Fruit,6
+165,Addisu Kidane,Ethiopia Heirloom,0.1,Stone Fruit,6
+166,Shilcho,Ethiopia Heirloom,5,Stone Fruit,6
+167,Los Vascos,"Bourbon, caturra, catimor",5,Stone Fruit,6
+168,MONTEBLANCO BOURBON ROSA,Burbon Rosa,0.1,Berry,7
+169,HUNAPU,Burbon,0.1,Berry,7
+170,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,0.1,Berry,7
+171,MERSHA ASSEFA,Ethiopia Heirloom,0.1,Berry,7
+172,SANTA CLARA,Burbon,0.1,Berry,7
+173,EL VENDAVAL,Catuai,0.1,Berry,7
+174,SUMAVA ESPRESSO,Caturra,0.1,Berry,7
+175,LA HUERTA,"Burbon, Caturra",0.1,Berry,7
+176,KII PEABERRY,"SL28, SL24",0.1,Berry,7
+177,LUITO GESHA,Gesha,0.1,Berry,7
+178,EVELIA MARIA HONEY GESHA,Gesha,10,Berry,7
+179,ELIDA ESTATE GREEN TIP GESHA,Gesha,10,Berry,7
+180,Meaza,Ethiopia Heirloom,0.1,Berry,7
+181,Bella Aurora,Caturra,0.1,Berry,7
+182,EL ESCOBERO AUCTION LOT,Caturra,10,Berry,7
+183,Kilenso,Ethiopia Heirloom,0.1,Berry,7
+184,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",0.1,Berry,7
+185,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",0.1,Berry,7
+186,David Mancia,"Pacas, Catimor",10,Berry,7
+187,Benjamin Miranda,Pacas,0.1,Berry,7
+188,Duncan Estate,Gesha,0.1,Berry,7
+189,Addisu Kidane,Ethiopia Heirloom,10,Berry,7
+190,Shilcho,Ethiopia Heirloom,10,Berry,7
+191,Los Vascos,"Bourbon, caturra, catimor",0.1,Berry,7
+192,MONTEBLANCO BOURBON ROSA,Burbon Rosa,0.1,Dried Fruit,8
+193,HUNAPU,Burbon,0.1,Dried Fruit,8
+194,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,8,Dried Fruit,8
+195,MERSHA ASSEFA,Ethiopia Heirloom,0.1,Dried Fruit,8
+196,SANTA CLARA,Burbon,0.1,Dried Fruit,8
+197,EL VENDAVAL,Catuai,0.1,Dried Fruit,8
+198,SUMAVA ESPRESSO,Caturra,0.1,Dried Fruit,8
+199,LA HUERTA,"Burbon, Caturra",0.1,Dried Fruit,8
+200,KII PEABERRY,"SL28, SL24",0.1,Dried Fruit,8
+201,LUITO GESHA,Gesha,0.1,Dried Fruit,8
+202,EVELIA MARIA HONEY GESHA,Gesha,0.1,Dried Fruit,8
+203,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Dried Fruit,8
+204,Meaza,Ethiopia Heirloom,0.1,Dried Fruit,8
+205,Bella Aurora,Caturra,0.1,Dried Fruit,8
+206,EL ESCOBERO AUCTION LOT,Caturra,0.1,Dried Fruit,8
+207,Kilenso,Ethiopia Heirloom,0.1,Dried Fruit,8
+208,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",0.1,Dried Fruit,8
+209,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",0.1,Dried Fruit,8
+210,David Mancia,"Pacas, Catimor",0.1,Dried Fruit,8
+211,Benjamin Miranda,Pacas,0.1,Dried Fruit,8
+212,Duncan Estate,Gesha,0.1,Dried Fruit,8
+213,Addisu Kidane,Ethiopia Heirloom,0.1,Dried Fruit,8
+214,Shilcho,Ethiopia Heirloom,0.1,Dried Fruit,8
+215,Los Vascos,"Bourbon, caturra, catimor",0.1,Dried Fruit,8
+216,MONTEBLANCO BOURBON ROSA,Burbon Rosa,0.1,Chocolate,9
+217,HUNAPU,Burbon,0.1,Chocolate,9
+218,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,0.1,Chocolate,9
+219,MERSHA ASSEFA,Ethiopia Heirloom,0.1,Chocolate,9
+220,SANTA CLARA,Burbon,10,Chocolate,9
+221,EL VENDAVAL,Catuai,0.1,Chocolate,9
+222,SUMAVA ESPRESSO,Caturra,0.1,Chocolate,9
+223,LA HUERTA,"Burbon, Caturra",10,Chocolate,9
+224,KII PEABERRY,"SL28, SL24",0.1,Chocolate,9
+225,LUITO GESHA,Gesha,0.1,Chocolate,9
+226,EVELIA MARIA HONEY GESHA,Gesha,0.1,Chocolate,9
+227,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Chocolate,9
+228,Meaza,Ethiopia Heirloom,0.1,Chocolate,9
+229,Bella Aurora,Caturra,7,Chocolate,9
+230,EL ESCOBERO AUCTION LOT,Caturra,0.1,Chocolate,9
+231,Kilenso,Ethiopia Heirloom,0.1,Chocolate,9
+232,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",10,Chocolate,9
+233,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",10,Chocolate,9
+234,David Mancia,"Pacas, Catimor",0.1,Chocolate,9
+235,Benjamin Miranda,Pacas,10,Chocolate,9
+236,Duncan Estate,Gesha,0.1,Chocolate,9
+237,Addisu Kidane,Ethiopia Heirloom,0.1,Chocolate,9
+238,Shilcho,Ethiopia Heirloom,0.1,Chocolate,9
+239,Los Vascos,"Bourbon, caturra, catimor",10,Chocolate,9
+240,MONTEBLANCO BOURBON ROSA,Burbon Rosa,5,Sugary & Sweet,10
+241,HUNAPU,Burbon,7,Sugary & Sweet,10
+242,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,7,Sugary & Sweet,10
+243,MERSHA ASSEFA,Ethiopia Heirloom,5,Sugary & Sweet,10
+244,SANTA CLARA,Burbon,0.1,Sugary & Sweet,10
+245,EL VENDAVAL,Catuai,10,Sugary & Sweet,10
+246,SUMAVA ESPRESSO,Caturra,5,Sugary & Sweet,10
+247,LA HUERTA,"Burbon, Caturra",10,Sugary & Sweet,10
+248,KII PEABERRY,"SL28, SL24",0.1,Sugary & Sweet,10
+249,LUITO GESHA,Gesha,0.1,Sugary & Sweet,10
+250,EVELIA MARIA HONEY GESHA,Gesha,0.1,Sugary & Sweet,10
+251,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Sugary & Sweet,10
+252,Meaza,Ethiopia Heirloom,5,Sugary & Sweet,10
+253,Bella Aurora,Caturra,0.1,Sugary & Sweet,10
+254,EL ESCOBERO AUCTION LOT,Caturra,10,Sugary & Sweet,10
+255,Kilenso,Ethiopia Heirloom,5,Sugary & Sweet,10
+256,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",0.1,Sugary & Sweet,10
+257,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",5,Sugary & Sweet,10
+258,David Mancia,"Pacas, Catimor",10,Sugary & Sweet,10
+259,Benjamin Miranda,Pacas,5,Sugary & Sweet,10
+260,Duncan Estate,Gesha,0.1,Sugary & Sweet,10
+261,Addisu Kidane,Ethiopia Heirloom,5,Sugary & Sweet,10
+262,Shilcho,Ethiopia Heirloom,5,Sugary & Sweet,10
+263,Los Vascos,"Bourbon, caturra, catimor",5,Sugary & Sweet,10
+264,MONTEBLANCO BOURBON ROSA,Burbon Rosa,0.1,Nut,11
+265,HUNAPU,Burbon,0.1,Nut,11
+266,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,0.1,Nut,11
+267,MERSHA ASSEFA,Ethiopia Heirloom,0.1,Nut,11
+268,SANTA CLARA,Burbon,0.1,Nut,11
+269,EL VENDAVAL,Catuai,0.1,Nut,11
+270,SUMAVA ESPRESSO,Caturra,5,Nut,11
+271,LA HUERTA,"Burbon, Caturra",0.1,Nut,11
+272,KII PEABERRY,"SL28, SL24",0.1,Nut,11
+273,LUITO GESHA,Gesha,0.1,Nut,11
+274,EVELIA MARIA HONEY GESHA,Gesha,0.1,Nut,11
+275,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Nut,11
+276,Meaza,Ethiopia Heirloom,0.1,Nut,11
+277,Bella Aurora,Caturra,0.1,Nut,11
+278,EL ESCOBERO AUCTION LOT,Caturra,0.1,Nut,11
+279,Kilenso,Ethiopia Heirloom,0.1,Nut,11
+280,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",0.1,Nut,11
+281,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",0.1,Nut,11
+282,David Mancia,"Pacas, Catimor",0.1,Nut,11
+283,Benjamin Miranda,Pacas,0.1,Nut,11
+284,Duncan Estate,Gesha,0.1,Nut,11
+285,Addisu Kidane,Ethiopia Heirloom,0.1,Nut,11
+286,Shilcho,Ethiopia Heirloom,0.1,Nut,11
+287,Los Vascos,"Bourbon, caturra, catimor",0.1,Nut,11
+288,MONTEBLANCO BOURBON ROSA,Burbon Rosa,0.1,Grain & Cereal,12
+289,HUNAPU,Burbon,0.1,Grain & Cereal,12
+290,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,0.1,Grain & Cereal,12
+291,MERSHA ASSEFA,Ethiopia Heirloom,0.1,Grain & Cereal,12
+292,SANTA CLARA,Burbon,0.1,Grain & Cereal,12
+293,EL VENDAVAL,Catuai,0.1,Grain & Cereal,12
+294,SUMAVA ESPRESSO,Caturra,0.1,Grain & Cereal,12
+295,LA HUERTA,"Burbon, Caturra",0.1,Grain & Cereal,12
+296,KII PEABERRY,"SL28, SL24",0.1,Grain & Cereal,12
+297,LUITO GESHA,Gesha,0.1,Grain & Cereal,12
+298,EVELIA MARIA HONEY GESHA,Gesha,0.1,Grain & Cereal,12
+299,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Grain & Cereal,12
+300,Meaza,Ethiopia Heirloom,0.1,Grain & Cereal,12
+301,Bella Aurora,Caturra,0.1,Grain & Cereal,12
+302,EL ESCOBERO AUCTION LOT,Caturra,0.1,Grain & Cereal,12
+303,Kilenso,Ethiopia Heirloom,0.1,Grain & Cereal,12
+304,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",7,Grain & Cereal,12
+305,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",0.1,Grain & Cereal,12
+306,David Mancia,"Pacas, Catimor",0.1,Grain & Cereal,12
+307,Benjamin Miranda,Pacas,0.1,Grain & Cereal,12
+308,Duncan Estate,Gesha,0.1,Grain & Cereal,12
+309,Addisu Kidane,Ethiopia Heirloom,0.1,Grain & Cereal,12
+310,Shilcho,Ethiopia Heirloom,0.1,Grain & Cereal,12
+311,Los Vascos,"Bourbon, caturra, catimor",0.1,Grain & Cereal,12
+312,MONTEBLANCO BOURBON ROSA,Burbon Rosa,0.1,Roast,13
+313,HUNAPU,Burbon,0.1,Roast,13
+314,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,0.1,Roast,13
+315,MERSHA ASSEFA,Ethiopia Heirloom,0.1,Roast,13
+316,SANTA CLARA,Burbon,0.1,Roast,13
+317,EL VENDAVAL,Catuai,0.1,Roast,13
+318,SUMAVA ESPRESSO,Caturra,0.1,Roast,13
+319,LA HUERTA,"Burbon, Caturra",0.1,Roast,13
+320,KII PEABERRY,"SL28, SL24",0.1,Roast,13
+321,LUITO GESHA,Gesha,0.1,Roast,13
+322,EVELIA MARIA HONEY GESHA,Gesha,0.1,Roast,13
+323,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Roast,13
+324,Meaza,Ethiopia Heirloom,0.1,Roast,13
+325,Bella Aurora,Caturra,0.1,Roast,13
+326,EL ESCOBERO AUCTION LOT,Caturra,0.1,Roast,13
+327,Kilenso,Ethiopia Heirloom,0.1,Roast,13
+328,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",0.1,Roast,13
+329,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",0.1,Roast,13
+330,David Mancia,"Pacas, Catimor",0.1,Roast,13
+331,Benjamin Miranda,Pacas,0.1,Roast,13
+332,Duncan Estate,Gesha,0.1,Roast,13
+333,Addisu Kidane,Ethiopia Heirloom,0.1,Roast,13
+334,Shilcho,Ethiopia Heirloom,0.1,Roast,13
+335,Los Vascos,"Bourbon, caturra, catimor",0.1,Roast,13
+336,MONTEBLANCO BOURBON ROSA,Burbon Rosa,0.1,Spice,14
+337,HUNAPU,Burbon,0.1,Spice,14
+338,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,0.1,Spice,14
+339,MERSHA ASSEFA,Ethiopia Heirloom,7,Spice,14
+340,SANTA CLARA,Burbon,0.1,Spice,14
+341,EL VENDAVAL,Catuai,0.1,Spice,14
+342,SUMAVA ESPRESSO,Caturra,0.1,Spice,14
+343,LA HUERTA,"Burbon, Caturra",0.1,Spice,14
+344,KII PEABERRY,"SL28, SL24",0.1,Spice,14
+345,LUITO GESHA,Gesha,0.1,Spice,14
+346,EVELIA MARIA HONEY GESHA,Gesha,0.1,Spice,14
+347,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Spice,14
+348,Meaza,Ethiopia Heirloom,0.1,Spice,14
+349,Bella Aurora,Caturra,0.1,Spice,14
+350,EL ESCOBERO AUCTION LOT,Caturra,0.1,Spice,14
+351,Kilenso,Ethiopia Heirloom,0.1,Spice,14
+352,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",0.1,Spice,14
+353,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",0.1,Spice,14
+354,David Mancia,"Pacas, Catimor",0.1,Spice,14
+355,Benjamin Miranda,Pacas,0.1,Spice,14
+356,Duncan Estate,Gesha,0.1,Spice,14
+357,Addisu Kidane,Ethiopia Heirloom,0.1,Spice,14
+358,Shilcho,Ethiopia Heirloom,5,Spice,14
+359,Los Vascos,"Bourbon, caturra, catimor",5,Spice,14
+360,MONTEBLANCO BOURBON ROSA,Burbon Rosa,0.1,Savory,15
+361,HUNAPU,Burbon,0.1,Savory,15
+362,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,0.1,Savory,15
+363,MERSHA ASSEFA,Ethiopia Heirloom,0.1,Savory,15
+364,SANTA CLARA,Burbon,0.1,Savory,15
+365,EL VENDAVAL,Catuai,0.1,Savory,15
+366,SUMAVA ESPRESSO,Caturra,0.1,Savory,15
+367,LA HUERTA,"Burbon, Caturra",0.1,Savory,15
+368,KII PEABERRY,"SL28, SL24",0.1,Savory,15
+369,LUITO GESHA,Gesha,0.1,Savory,15
+370,EVELIA MARIA HONEY GESHA,Gesha,0.1,Savory,15
+371,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Savory,15
+372,Meaza,Ethiopia Heirloom,0.1,Savory,15
+373,Bella Aurora,Caturra,0.1,Savory,15
+374,EL ESCOBERO AUCTION LOT,Caturra,0.1,Savory,15
+375,Kilenso,Ethiopia Heirloom,0.1,Savory,15
+376,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",0.1,Savory,15
+377,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",0.1,Savory,15
+378,David Mancia,"Pacas, Catimor",0.1,Savory,15
+379,Benjamin Miranda,Pacas,0.1,Savory,15
+380,Duncan Estate,Gesha,0.1,Savory,15
+381,Addisu Kidane,Ethiopia Heirloom,0.1,Savory,15
+382,Shilcho,Ethiopia Heirloom,0.1,Savory,15
+383,Los Vascos,"Bourbon, caturra, catimor",0.1,Savory,15
+384,MONTEBLANCO BOURBON ROSA,Burbon Rosa,0.1,Herb,16
+385,HUNAPU,Burbon,0.1,Herb,16
+386,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,0.1,Herb,16
+387,MERSHA ASSEFA,Ethiopia Heirloom,0.1,Herb,16
+388,SANTA CLARA,Burbon,0.1,Herb,16
+389,EL VENDAVAL,Catuai,0.1,Herb,16
+390,SUMAVA ESPRESSO,Caturra,0.1,Herb,16
+391,LA HUERTA,"Burbon, Caturra",0.1,Herb,16
+392,KII PEABERRY,"SL28, SL24",0.1,Herb,16
+393,LUITO GESHA,Gesha,0.1,Herb,16
+394,EVELIA MARIA HONEY GESHA,Gesha,0.1,Herb,16
+395,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Herb,16
+396,Meaza,Ethiopia Heirloom,0.1,Herb,16
+397,Bella Aurora,Caturra,0.1,Herb,16
+398,EL ESCOBERO AUCTION LOT,Caturra,0.1,Herb,16
+399,Kilenso,Ethiopia Heirloom,0.1,Herb,16
+400,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",0.1,Herb,16
+401,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",0.1,Herb,16
+402,David Mancia,"Pacas, Catimor",0.1,Herb,16
+403,Benjamin Miranda,Pacas,0.1,Herb,16
+404,Duncan Estate,Gesha,5,Herb,16
+405,Addisu Kidane,Ethiopia Heirloom,0.1,Herb,16
+406,Shilcho,Ethiopia Heirloom,0.1,Herb,16
+407,Los Vascos,"Bourbon, caturra, catimor",5,Herb,16
+408,MONTEBLANCO BOURBON ROSA,Burbon Rosa,0.1,Earthy,17
+409,HUNAPU,Burbon,0.1,Earthy,17
+410,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,0.1,Earthy,17
+411,MERSHA ASSEFA,Ethiopia Heirloom,0.1,Earthy,17
+412,SANTA CLARA,Burbon,0.1,Earthy,17
+413,EL VENDAVAL,Catuai,0.1,Earthy,17
+414,SUMAVA ESPRESSO,Caturra,0.1,Earthy,17
+415,LA HUERTA,"Burbon, Caturra",0.1,Earthy,17
+416,KII PEABERRY,"SL28, SL24",0.1,Earthy,17
+417,LUITO GESHA,Gesha,0.1,Earthy,17
+418,EVELIA MARIA HONEY GESHA,Gesha,0.1,Earthy,17
+419,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Earthy,17
+420,Meaza,Ethiopia Heirloom,5,Earthy,17
+421,Bella Aurora,Caturra,5,Earthy,17
+422,EL ESCOBERO AUCTION LOT,Caturra,0.1,Earthy,17
+423,Kilenso,Ethiopia Heirloom,0.1,Earthy,17
+424,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",0.1,Earthy,17
+425,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",0.1,Earthy,17
+426,David Mancia,"Pacas, Catimor",0.1,Earthy,17
+427,Benjamin Miranda,Pacas,0.1,Earthy,17
+428,Duncan Estate,Gesha,0.1,Earthy,17
+429,Addisu Kidane,Ethiopia Heirloom,0.1,Earthy,17
+430,Shilcho,Ethiopia Heirloom,0.1,Earthy,17
+431,Los Vascos,"Bourbon, caturra, catimor",0.1,Earthy,17
+432,MONTEBLANCO BOURBON ROSA,Burbon Rosa,0.1,Vegetal,18
+433,HUNAPU,Burbon,0.1,Vegetal,18
+434,EL LIMONCILLO YELLOW PACAMARA,Yellow Pacamara,0.1,Vegetal,18
+435,MERSHA ASSEFA,Ethiopia Heirloom,0.1,Vegetal,18
+436,SANTA CLARA,Burbon,0.1,Vegetal,18
+437,EL VENDAVAL,Catuai,0.1,Vegetal,18
+438,SUMAVA ESPRESSO,Caturra,0.1,Vegetal,18
+439,LA HUERTA,"Burbon, Caturra",0.1,Vegetal,18
+440,KII PEABERRY,"SL28, SL24",0.1,Vegetal,18
+441,LUITO GESHA,Gesha,0.1,Vegetal,18
+442,EVELIA MARIA HONEY GESHA,Gesha,0.1,Vegetal,18
+443,ELIDA ESTATE GREEN TIP GESHA,Gesha,0.1,Vegetal,18
+444,Meaza,Ethiopia Heirloom,5,Vegetal,18
+445,Bella Aurora,Caturra,0.1,Vegetal,18
+446,EL ESCOBERO AUCTION LOT,Caturra,0.1,Vegetal,18
+447,Kilenso,Ethiopia Heirloom,0.1,Vegetal,18
+448,Mr. David Mburu,"Ruiru 11, SL 28, SL 34",7,Vegetal,18
+449,Finca Las Terrazas,"San Ramon, Bourbon, Caturra",0.1,Vegetal,18
+450,David Mancia,"Pacas, Catimor",0.1,Vegetal,18
+451,Benjamin Miranda,Pacas,0.1,Vegetal,18
+452,Duncan Estate,Gesha,0.1,Vegetal,18
+453,Addisu Kidane,Ethiopia Heirloom,0.1,Vegetal,18
+454,Shilcho,Ethiopia Heirloom,5,Vegetal,18
+455,Los Vascos,"Bourbon, caturra, catimor",0.1,Vegetal,18
